@@ -15,7 +15,7 @@ class Usuario {
     }
 
     countMascotas(){
-        return console.log(this.mascotas.length);
+        return console.log(`La cantidad de mascotas del usuario es: ${this.mascotas.length}`);
     }
 
     addBook(libroNuevo){
@@ -23,7 +23,7 @@ class Usuario {
     }
 
     getBookNames(){
-        return console.log(this.libros.map(libro => libro.nombre));
+        return console.log(`Los nombres de los libros del usuario son: ${this.libros.map(libro => libro.nombre)} `);
     }
 
 }
